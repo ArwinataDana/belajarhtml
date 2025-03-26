@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Table</title>
+</head>
+<body>
+    <table border="3" cellspacing="5" cellpadding="20" align="center">
+        <caption>Element Tabel Pada HTML</caption>
+        <!-- border digunakan untuk membuat garis pembatas pada tabel, semakin tinggi angka border semakin tebal garisnya-->
+         <!-- tag caption digunakan untuk memberikan judul pada sebuah table-->
+          <!-- cellspacing digunakan untuk memberikan jarak pada setiap baris tabel-->
+           <!-- cellpadding digunakan untuk memberikan jarak pada teks terhadap kotak tabel-->
+            <!-- coslpan digunkanan untuk memperpanjang tabel dengan mengambil alih tabel sebelah -->
+        <thead>
+            <tr>
+                <th bgcolor="green">ini kolom 1</th>
+                <th bgcolor="blueviolet" >ini kolom 2</th>
+                <th bgcolor="red" >ini kolom 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">ini baris A kolom A</td>
+            </tr>
+            <tr>
+                <td>ini baris 3 kolom 1</td>
+                <td>ini baris 3 kolom 1</td>
+                <td>ini baris 3 kolom 1</td>
+            </tr>
+            <tr>
+                <td rowspan="2">ini baris 3 kolom 1</td>
+                <td>ini baris 3 kolom 2</td>
+                <td>ini baris 3 kolom 3</td>
+            </tr>
+            <tr>
+                <td>ini baris 3 kolom 2</td>
+                <td>ini baris 3 kolom 3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
